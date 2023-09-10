@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "SEP2"
+version = "0.1.0"
+license = "MIT"
+description = "Build a Playlist of songs from you spotify playlists!"
+authors = ["summersphinx <summersphinx@duck.com>"]
+readme = "README.md"
+homepage = "https://xplus.games/other/SEP"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+spotipy = "^2.23.0"
+rich = "^13.5.2"
+jupyterlab = "^4.0.5"
+pysimplegui = "^4.60.5"
+cryptography = "^41.0.3"
+pillow = "^10.0.0"
+pandoc = "^2.3"
+nbconvert = {extras = ["qtpdf"], version = "^7.8.0"}
+imageio = "^2.31.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
